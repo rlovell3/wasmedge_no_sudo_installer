@@ -1,6 +1,8 @@
 # wasmedge_no_sudo_installer  
 A modified wasmedge installer that doesn't need sudo and is made for me, a longtime user of oh-my-zsh on Linux, with enough customizations over the years to never want anyone ever, ever touching anything on my machine.  
 
+I should add that the people who originally wrote wasmedge, llamaedge, and all that amazing work, did not endorse this highly modified version of their beautiful install script.  This is really for me on my own equipment, fully responsible for whatever this script does to my machines, and providing it as a public repo on Github so that others with similar development setups will have an example of how to modify install scripts that are starting to populate every tool or library, so that they don't require sudo privilege, and don't go making all sorts of changes to your system. If you run this script on your own machines, you do so fully understanding every single line of code in the script before running it, and you agree that you have no recourse toward me if you fuck up your own machine, claiming that this script was the cause of such a terrible day for you. This script does absolutely nothing that a few presses of the delete button won't fix.  
+
 Here's the quick and dirty:  
 The original wasmedge installation script is incredible.  It's one of the more interesting shell scripts I've ever read.  
 However, I wanted to modify a few things for my own personal installation.  

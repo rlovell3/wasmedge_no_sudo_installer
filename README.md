@@ -15,8 +15,7 @@ So, ... here is a summary of the modifications I've made to the amazing original
 3.  perform the install in ~/.wasmedge directory
 4.  Don't modify .zshrc.  Instead print all shell modifications to a new file: ~/.oh-my-zsh/custom/wasmedge.zsh (so I can easily keep up with them).
 5.  Verbose priint every single step to stdout and also to a log file in ~/.wasmedge
-6.  Completely remove the need to have sudo privilege to run the script.
-7.  hard-coded home path as `/home/rl/` in multiple path definitions, so you will need to change that before running the script.  I know, I know. I was lazy.  You can fix it yourself if you are still reading this....  
+6.  Completely remove the need to have sudo privilege to run the script.   
 
 So, look: I have no idea if this highly modified script will run on systems other than the machines I personally own. I don't know if it will work on Windoes or Macs, or even if it will run on any of the 6 Arch Linux boxes I have surrounding me. What I built this script for was to get it going on my Pop OS development box (this is NOT a recommendation for PoP OS. Those System76 guys fucked me over like you would not believe.  They even never read the Gigabyte Motherboard manual, which clearly states not to insert an NVMe drive in the slot nearest the CPU if you happen to be running a GPU in the same-mapped PCie slot.  Just by reading the manual and moving the drive, I generated an 8x speed-up of my GPU.  Thanks for nothing System 76 assholes).
 
